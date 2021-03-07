@@ -1,0 +1,108 @@
+*{
+        margin: 0;
+        padding: 0;
+     }
+     .text-center{
+        text-align: center;
+        margin-bottom: 60px;
+        color: #f7f7f7;
+        background: rgb(27, 71, 218);
+        padding: 10px 0;
+     }
+     /* .main-div{
+        max-width: 1200px;
+        height: 800px;
+        margin: auto;
+     } */
+     /* day 32 part 1 */
+     .flex-content {
+         width: 557px;
+         height: 400px;
+         border: 1px solid red;
+         margin: auto;
+         display: flex;
+         flex-direction: row;
+         align-items: start;
+         justify-content: flex-start;
+         padding: 10px;
+         flex-wrap: wrap;
+         align-content: flex-start;
+        
+     }
+     .flex-item {
+         padding: 10px;
+         background: green;
+         color: #fff;
+         text-align: center;
+         border: 1px solid #999;
+     }
+     /* day 32 part 2 */
+     /* menu section */
+     .menu ul {
+         display: flex;
+         justify-content: flex-start;
+         background: green;
+         list-style: none;
+        text-align: center;
+     }
+     .menu ul li {
+         flex-grow: 1;
+     }
+     .menu ul li a{
+        color: #fff;
+        padding: 10px 30px;
+        border: 1px solid #ddd;
+        display: block;
+     }
+     /* row section */
+     .row{
+        display: flex;
+        flex: 1;
+     
+     }
+     .row-item{
+        border: 2px solid rgb(147, 218, 15);
+     }
+     /* row 2 */
+     .row-2{
+        display: flex;
+     }
+     .row-item-2{
+        border: 2px solid rgb(201, 17, 130);
+        flex-basis: 30%;
+     }
+     .bigger-div{
+        flex-basis: 70%;
+     }
+     /* row 3*/
+     .row-3{
+        display: flex;
+         
+     }
+     .row-item-3{
+        border: 2px solid rgb(128, 34, 11);
+        flex: 1 0 0%;
+     }
+     .row3-bigger{
+        flex-grow: 3;
+     }
+     /* example */
+     .example {
+         width: 600px;
+         height: 600px;
+         color: #fff;
+         text-align: center;
+         font-size: 20px;
+         border: 2px solid rgb(9, 41, 90);
+         margin: auto;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     .inner-div{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(173, 21, 85);
+     
+     }
+     
